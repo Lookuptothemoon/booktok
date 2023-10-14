@@ -25,5 +25,4 @@ mongoose
 // API endpoints
 // users
 const userRouter = require("./routes/users");
-app.use("/");
 app.use("/users", userRouter);
